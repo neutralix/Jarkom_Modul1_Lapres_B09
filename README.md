@@ -31,7 +31,7 @@ Filter expression :
 - username=10pemuda&password=guncangdunia
 
 Screenshot :  
-![Filter 1](Screenshot/gambar1.1.png)
+![Filter 1](Screenshot/gambar3.1.png)
 
 Penjelasan :
 - Gunakan filter untuk menacri web dan dengan request psot kita menemukan  username dan password pengguna
@@ -43,7 +43,7 @@ Nama-nama web yang menggunakan basic authentication adalah :
 - testing.mekanis.me
 - aku.pengen.pw\r\n
 Screenshot :  
-![Filter 1](Screenshot/gambar1.1.png)
+![Filter 1](Screenshot/gambar4.1.png)
 
 Penjelasan :
 - Gunakan filter untuk menacri web yang menggunakan basic authentication
@@ -56,7 +56,8 @@ Nama-nama web yang menggunakan basic authentication adalah :
 - testing.mekanis.me
 - aku.pengen.pw\r\n
 Screenshot :  
-![Filter 1](Screenshot/gambar1.1.png)
+![Filter 1](Screenshot/gambar5.1.png)
+![Penemuan id pass dan sreenshoot web](Screenshot/gambar5.2.png)
 
 Penjelasan :
 - Gunakan filter untuk mencari web dimana web tersebut berisikan data username dan password dari web 
