@@ -17,7 +17,10 @@ Filter expression :
 “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg”
 
 Screenshot :  
-![Filter 1](Screenshot/gambar1.1.png)
+![Cara 1](Screenshot/gambar2.1.png)
+![Cara 2](Screenshot/gambar2.2.png)
+![Letak data](Screenshot/gambar2.3.png)
+![Hasil](Screenshot/gambar2.4.png)
 
 Penjelasan :
 - Pada menut file kita lalu ke export object HTTP lalu cari dengan “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg”
