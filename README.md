@@ -2,6 +2,7 @@
 ## Soal 1
 Filter expression :
 - http.host == "testing.mekanis.me"
+
 Server: 
 - nginx/1.14.0 (Ubuntu)
 
@@ -23,7 +24,7 @@ Screenshot :
 ![Hasil](Screenshot/gambar2.4.png)
 
 Penjelasan :
-- Pada menut file kita lalu ke export object HTTP lalu cari dengan “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg”
+- Pada menu file kita lalu ke export object HTTP lalu cari dengan “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg”
 
 ## Soal 3
 Filter expression :
@@ -34,27 +35,31 @@ Screenshot :
 ![Filter 1](Screenshot/gambar3.1.png)
 
 Penjelasan :
-- Gunakan filter untuk menacri web dan dengan request psot kita menemukan  username dan password pengguna
+- Gunakan filter untuk mencari web dan dengan request POST kita menemukan username dan password pengguna
 
 ## Soal 4
 Filter expression :
 - http.authbasic
+
 Nama-nama web yang menggunakan basic authentication adalah :
 - testing.mekanis.me
-- aku.pengen.pw\r\n
+- aku.pengen.pw
+
 Screenshot :  
 ![Filter 1](Screenshot/gambar4.1.png)
 
 Penjelasan :
-- Gunakan filter untuk menacri web yang menggunakan basic authentication
+- Gunakan filter untuk mencari web yang menggunakan basic authentication
 - Lalu cari web yang menggunakan basic authentication
 
 ## Soal 5
 Filter expression :
 - http.host == "aku.pengen.pw" && http.authorization
+
 Nama-nama web yang menggunakan basic authentication adalah :
 - testing.mekanis.me
-- aku.pengen.pw\r\n
+- aku.pengen.pw
+
 Screenshot :  
 ![Filter 1](Screenshot/gambar5.1.png)
 ![Penemuan id pass dan sreenshoot web](Screenshot/gambar5.2.png)
@@ -109,7 +114,6 @@ Penjelasan :
 Filter expression :
 - ftp.request.command == USER or ftp.request.command == PASS
 
-
 Screenshot :  
 ![Filter 1](Screenshot/gambar9.1.png)
 
@@ -120,16 +124,14 @@ Penjelasan :
 Filter expression :
 - Search hex value 25 50 44 46, didapat dari clue soal. Follow TCP Stream frame 290. Simpan sebagai raw dan dinamai dengan format .pdf
 
-
 Screenshot :  
 ![Filter 1](Screenshot/gambar10.1.png)
 ![Filter 1](Screenshot/gambar10.2.png)
 ![Filter 1](Screenshot/gambar10.3.png)
-![Filter 1](Screenshot/gambar10.4.png)
 
 Penjelasan :
 - Pertama kita mencari clue diberikan dengan mencarinya di search dengan memasukkan kode hex value yang diberikan
-- lalu kita buka dengan menggunakan follow lalu kita download versi rawnya lalu download dalam bentuk pdf
+- Lalu kita buka dengan menggunakan follow lalu kita download versi rawnya lalu download dalam bentuk pdf
 
 ## Soal 11
 Filter expression : port 21
