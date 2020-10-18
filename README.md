@@ -1,13 +1,15 @@
 # Jarkom_Modul1_Lapres_B09
 ## Soal 1
 Filter expression :
-- a
+- http.host == "testing.mekanis.me"
+Server: 
+- nginx/1.14.0 (Ubuntu)
 
 Screenshot :  
 ![Filter 1](Screenshot/gambar1.1.png)
 
 Penjelasan :
-- Gu
+- Gunakan filter yang diberikan untuk mencari web server dari "testing.mekanis.me"
 
 ## Soal 6
 Filter expression :
