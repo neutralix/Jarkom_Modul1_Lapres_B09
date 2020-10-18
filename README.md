@@ -11,6 +11,55 @@ Screenshot :
 Penjelasan :
 - Gunakan filter yang diberikan untuk mencari web server dari "testing.mekanis.me"
 
+## Soal 2
+Filter expression :
+- Menggunakan text filter pada Export Object HTTP 
+“Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg”
+
+Screenshot :  
+![Filter 1](Screenshot/gambar1.1.png)
+
+Penjelasan :
+- Pada menut file kita lalu ke export object HTTP lalu cari dengan “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg”
+
+## Soal 3
+Filter expression :
+- http.host contains "ppid.dpr.go.id" and  http.request.method == "POST"
+- username=10pemuda&password=guncangdunia
+
+Screenshot :  
+![Filter 1](Screenshot/gambar1.1.png)
+
+Penjelasan :
+- Gunakan filter untuk menacri web dan dengan request psot kita menemukan  username dan password pengguna
+
+## Soal 4
+Filter expression :
+- http.authbasic
+Nama-nama web yang menggunakan basic authentication adalah :
+- testing.mekanis.me
+- aku.pengen.pw\r\n
+Screenshot :  
+![Filter 1](Screenshot/gambar1.1.png)
+
+Penjelasan :
+- Gunakan filter untuk menacri web yang menggunakan basic authentication
+- Lalu cari web yang menggunakan basic authentication
+
+## Soal 5
+Filter expression :
+- http.host == "aku.pengen.pw" && http.authorization
+Nama-nama web yang menggunakan basic authentication adalah :
+- testing.mekanis.me
+- aku.pengen.pw\r\n
+Screenshot :  
+![Filter 1](Screenshot/gambar1.1.png)
+
+Penjelasan :
+- Gunakan filter untuk mencari web dimana web tersebut berisikan data username dan password dari web 
+- Lalu cari keunjungi web dan isi dengan username dan password daro file pcapng
+- Lalu isi pertanyaan yang diberikan
+
 ## Soal 6
 Filter expression :
 - ftp-data.command contains Answer.zip
