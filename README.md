@@ -105,6 +105,32 @@ Penjelasan :
 - Gunakan ip sebagai filter untuk mencari objek didownload dari Microsoft
 - Objek yang didownload adalah "Readme"
 
+## Soal 9
+Filter expression :
+- ftp.request.command == USER or ftp.request.command == PASS
+
+
+Screenshot :  
+![Filter 1](Screenshot/gambar9.1.png)
+
+Penjelasan :
+- Gunakan filter yang diberikan untuk mencari wusername dan password FTP localhost
+
+## Soal 10
+Filter expression :
+- Search hex value 25 50 44 46, didapat dari clue soal. Follow TCP Stream frame 290. Simpan sebagai raw dan dinamai dengan format .pdf
+
+
+Screenshot :  
+![Filter 1](Screenshot/gambar10.1.png)
+![Filter 1](Screenshot/gambar10.2.png)
+![Filter 1](Screenshot/gambar10.3.png)
+![Filter 1](Screenshot/gambar10.4.png)
+
+Penjelasan :
+- Pertama kita mencari clue diberikan dengan mencarinya di search dengan memasukkan kode hex value yang diberikan
+- lalu kita buka dengan menggunakan follow lalu kita download versi rawnya lalu download dalam bentuk pdf
+
 ## Soal 11
 Filter expression : port 21
 
